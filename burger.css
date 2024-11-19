@@ -1,0 +1,191 @@
+
+.firstsec{
+    height: 70vh;
+ }
+ .first{
+ 
+ 
+ 
+ background-image: url(./lemoon.jpg);
+ 
+ height: 100%;
+ object-fit: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ border-radius: 0.7rem;
+ width:95vw;
+ margin-top: 1rem;}
+ body{
+    background: url(./bbb.jpg);
+    }
+    .firstsec{
+        display: flex;
+        justify-content: center;
+    }
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    
+    
+    
+    }
+    .header {
+    
+        display: flex;
+        font-size: 1.3rem;
+        color: white;
+        justify-content: center;
+        gap: 0.5rem;
+    
+    }
+    
+    li {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        width: 150px;
+        font-size: 20px;
+        color:white;
+        
+    
+    }
+    
+    li:hover {
+        color: yellow;
+        cursor: pointer;
+    }
+    
+    .mynav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* gap:8rem; */
+        background-color: transparent;
+        height: 71px;
+        padding: 3rem 6rem;
+        /* width: 100%; */
+    }
+    
+    .thelogos {
+        display: flex;
+        gap: 1rem;
+        position: relative;
+    }
+    
+    .circle {
+        width: 50px;
+        height: 50px;
+        border: 1px solid white;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .redcircle{
+        width:26px;
+        height: 26px;
+        background-color: red;
+        color:white;
+        border-radius: 50%;
+        position: absolute;
+        right:50%;
+        top:0;
+        display: flex;
+        justify-content: center;
+    
+        align-items: center;
+    }
+    
+    
+    .redcircle2{
+        width:26px;
+        height: 26px;
+        background-color: red;
+        color:white;
+        border-radius: 50%;
+        position: absolute;
+        right:0;
+        top: 0%;
+        display: flex;
+        justify-content: center;
+    
+        align-items: center;}
+        .circle i {
+            color: white
+        }
+       
+        .circle i {
+            color: white
+        }
+ 
+       .slash{
+            transform: translate(0,-0.2rem);
+        }
+        .firstsec{
+            display: flex;
+            justify-content: center;
+        }  
+        .titles{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .t1{color: white;
+            transform: translate(0,2rem);
+
+        }
+        .t2{
+            font-size: 2rem;
+            color: white;
+         
+        }
+        .myimage img{
+            width:300px;
+            height: 300px;
+            
+            border-radius: 1rem;
+           
+          
+        }
+        .lemon{
+            height: 400px;
+            width:60%;
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            align-items: center;
+            color: azure;
+            background-color:  #1D1D1D;
+            border-radius: 1rem;
+            
+
+
+            
+        }
+        .juu{
+            display: flex;
+            justify-content: center;
+        }
+       button{
+        width:150px;
+        height: 40px;
+
+       }
+       .heart i{
+        background-color:  #D62828;
+
+        width:40px;
+        height: 40px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       }
+       .heart{
+        transform: translate(1rem,-18rem);
+       }
+      

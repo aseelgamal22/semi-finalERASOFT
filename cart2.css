@@ -1,0 +1,248 @@
+.firstsec {
+    height: 70vh;
+}
+
+.first {
+
+
+
+    background-image: url(./lemoon.jpg);
+
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.7rem;
+    width: 95vw;
+    margin-top: 1rem;
+}
+
+body {
+    background: url(./bbb.jpg);
+}
+
+.firstsec {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+.header {
+
+    display: flex;
+    font-size: 1.3rem;
+    color: white;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+
+
+}
+
+li:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.mynav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap:8rem; */
+    background-color: transparent;
+    height: 71px;
+    padding: 3rem 6rem;
+    /* width: 100%; */
+}
+
+.thelogos {
+    display: flex;
+    gap: 1rem;
+    position: relative;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redcircle {
+    width: 26px;
+    height: 26px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+.redcircle2 {
+    width: 26px;
+    height: 26px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.circle i {
+    color: white
+}
+
+.circle i {
+    color: white
+}
+
+.slash {
+    transform: translate(0, -0.2rem);
+}
+
+.firstsec {
+    display: flex;
+    justify-content: center;
+}
+
+.empty {
+    color: bisque;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.boo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+button {
+    width: 245px;
+    height: 40px;
+    border-radius: 0.5rem;
+    background-color: orangered;
+    color: antiquewhite;
+    border: none;
+
+
+
+}
+
+
+
+.line {
+    border-top: 1px solid white;
+    width: 250px;
+}
+
+.txxt {
+    margin-top: 3rem;
+}
+
+.frame18 {
+    margin-top: 7rem;
+    color: white;
+
+}
+
+.nono {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-left: 1.5rem;
+}
+
+.mimi {
+    border: 1px solid white;
+    width: 540px;
+    height: 80%;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.mimi img {
+    width: 40%;
+    height: 70%;
+    display: flex;
+
+}
+
+h1 {
+    margin-left: 1.5rem;
+    padding: 0.5rem;
+}
+
+.totalshipping {
+    border: 1px solid white;
+    border-radius: 1rem;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+    align-items: center;
+    margin-right: 1.5rem;
+}
+
+.total {
+    display: flex;
+    gap: 8rem;
+    padding: 1rem;
+    height: 40px;
+
+}
+
+.display {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.fourpieces {
+    display: flex;
+    gap: 15rem;
+}
+
+.flexx {
+    display: flex;
+    gap: 1rem;
+}

@@ -1,0 +1,445 @@
+.firstdiv {
+    background-image: url(./sanddwichback.jpg);
+    height: 100vh;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+body{
+    background: url(./bbb.jpg);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.firstdiv::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+.firstdiv>* {
+    position: relative;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 200px;
+    font-size: 25px;
+    color: azure;
+
+}
+
+li:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.mynav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap:8rem; */
+    background-color: transparent;
+    height: 71px;
+    padding: 3rem 6rem;
+    /* width: 100%; */
+}
+
+.thelogos {
+    display: flex;
+    gap: 1rem;
+    position: relative;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mysec{
+    min-height: 100vh;
+}
+
+.text {
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.firsrttxt {
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.secondtxt {
+    font-size: 1.5rem;
+    font-weight: 350;
+    width: 90%;
+    text-align: center;
+
+
+}
+.make{
+    border-bottom: 1px solid black;
+    width: 70%;
+    height:10px;
+    
+}
+
+button {
+    width: 320px;
+    height: 70px;
+    background-color: orangered;
+    border-radius: 1.5rem;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    padding: 10px;
+    outline: 1px solid white;
+}
+
+.circle i {
+    color: white
+}
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color:black;
+    border-radius: 1rem;
+    /* width:25vw; */
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    padding: 1rem;
+
+}
+.card img{
+    width:300px;
+    height: 250px;
+    border-radius: 1rem;
+}
+.card button{
+    width: 250px;
+    height: 50px;
+    background-color:black;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    padding: 10px;
+    outline: 1px solid white;
+}
+.sppp{
+    width: 95%;
+   display:flex;
+   justify-content:center;
+   gap:14rem;
+   border-bottom:1px solid white;
+   padding-bottom: 1rem;
+   
+}
+.drow{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    
+}
+h1{
+    padding:3rem;
+    text-align: center;
+    color: antiquewhite;
+}
+
+.lastimg img{
+    width:90vw;
+    height: 100vh;
+    object-position: center;
+    border-radius: 2rem;
+ 
+    
+    
+    
+    object-fit: cover;
+}
+
+.lastimg{
+    margin-top: 7rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 2rem;
+    
+}
+
+.fontwow{
+    display: flex;
+    align-items: center;
+    padding:3rem;
+
+    
+}
+.redbottom{
+    width:300px;
+    border-bottom: 2px solid red;
+    height: 100px;
+}
+.arrow{
+    border-bottom:2px solid white;
+    height: 100px;
+    width:500px;}
+.line{
+    width:200px;
+}
+.thisi i{
+    width:20px;
+    height:20px;
+    color: yellow;
+}
+.starr{
+    display: flex;
+}
+.check{
+    display: flex;
+    gap:0.5rem;
+   
+}
+.redcircle{
+    width:26px;
+    height: 26px;
+    background-color: red;
+    color:white;
+    border-radius: 50%;
+    position: absolute;
+    right:50%;
+    top:0;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+.redcircle2{
+    width:26px;
+    height: 26px;
+    background-color: red;
+    color:white;
+    border-radius: 50%;
+    position: absolute;
+    right:0;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+   .new{
+    width:50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+     color: antiquewhite;
+     position: absolute;
+     top:-2%;
+     right:20%;
+     
+   
+
+} 
+.card{
+    position: relative;
+}
+
+
+.throwarrows{
+    transform: translate(10rem,3rem);
+    display: flex;
+    gap:3rem;
+    font-size: 30px;
+    color: gray;
+}
+ 
+ .new{
+    width:50px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+     color: antiquewhite;
+     position: absolute;
+     top:-2%;
+     right:20%;
+     
+
+   }
+   .swiper-wrapper {
+    width: 600px;
+    height: 300px;
+    color:white;
+  }
+  .swiper{
+    height: 700px;
+  }
+
+   @media screen and (min-width:768px) and (max-width:1023px){
+    .thislist{
+display: flex;
+flex-direction: column;
+margin-top: 3rem;
+transform: translate(-4rem);
+min-height: 100vh;
+
+
+    }
+    .thislist li{
+        font-size: 18px;
+    }
+    .eat{
+        display: none;
+    }
+    .mysec{
+        height: 100vh;
+    }
+
+
+    .firsrttxt{
+        font-size: 30px;
+    }
+    .text button{
+        width: 250px;
+    }
+    .drow{
+        display: flex;
+        justify-content: center;
+        overflow-x: scroll;
+        
+        
+        gap:1rem;
+    }
+    .drow img{
+        width:200px;
+        height: 200px;
+    }
+.sppp{
+    width: 95%;
+    display:flex;
+    justify-content:center;
+    gap:6rem;
+    border-bottom:1px solid white;
+    padding-bottom: 1rem;
+    
+
+
+
+
+   }
+   .card{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color:black;
+    border-radius: 1rem;
+    width:23vw;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    padding: 1rem;}
+
+    .card button{
+        width:200px;
+    }
+    .new{
+        width:50px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+         color: antiquewhite;
+         position: absolute;
+         top:-3%;
+         right:20%;
+         z-index:1;
+         
+   
+
+   }
+   .card{
+    position: relative;
+   }
+
+.arrow{
+    display: none;
+}
+.redbottom{
+    display: none;
+
+}
+.fontwow{
+    display: none;
+}
+.lastimg {
+    margin-top: 3rem;
+}
+h1{
+    padding:2rem;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+   }
+    
+   
+   
+
+    
+
+    
+
+
+  
+ 
+    

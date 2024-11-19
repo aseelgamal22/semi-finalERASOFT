@@ -1,0 +1,45 @@
+{
+    "categories": [
+        {
+            "id": 1,   "name": "vegetarian","image": "./Frame 16.png","slug": "veg","isActive":1
+            
+        },
+        {
+            "id": 2,"name": "meal","image": "./Frame 16.png","slug": "meal","isActive":0
+        },
+        {
+            "id": 3,"name": "chicken","image": "./Frame 16.png","slug": "chicken",
+            "isActive":0
+        },
+        {
+            "id": 4,
+            "name": "double",
+            "image": "./Frame 16.png",
+            "slug": "dubble",
+            "isActive":0
+        }
+    ],
+    "cards":[
+        {
+            "id":1,"price":300,"rate":4.5,"title":"Veg 1","pieces":1,"isSpicy":1,"slug":"veg","img":"./Frame 16.png","quantity":1
+        },
+        {
+            "id":2,"price":300,"rate":4.5,"title":"Veg 2","pieces":1,"isSpicy":1,"slug":"veg","img":"./Frame 16.png","quantity":1
+        },
+        {
+            "id":3,"price":300,"rate":4.5,"title":"meal 1","pieces":1,"isSpicy":0,"slug":"meal","img":"./Frame 16.png","quantity":1
+        },
+        {
+            "id":4,"price":300,"rate":4.5,"title":"meal 2","pieces":1,"isSpicy":0,"slug":"meal","img":"./Frame 16.png","quantity":1
+        },
+        {
+            "id":5,"price":300,"rate":4.5,"title":"fraaaa5","pieces":1,"isSpicy":1,"slug":"chicken","img":"./Frame 16.png","quantity":1
+
+        },
+        {
+            "id":6,"price":300,"rate":4.5,"title":"doubledouble","pieces":1,"isSpicy":0,"slug":"dubble","img":"./Frame 16.png","quantity":1
+        }
+
+    ]
+
+}

@@ -1,0 +1,278 @@
+.firstsec {
+    height: 100vh;
+}
+
+.first {
+
+
+
+    background-image: url(./lemoon.jpg);
+
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.7rem;
+    width: 95vw;
+    margin-top: 1rem;
+
+
+
+
+
+}
+
+
+.header {
+
+    display: flex;
+    font-size: 1.3rem;
+    color: white;
+    justify-content: center;
+    gap: 0.5rem;
+
+}
+
+.slash {
+    transform: translate(0, -0.2rem);
+}
+
+body {
+    background: url(./bbb.jpg);
+}
+
+.firstsec {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+
+}
+
+
+li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+
+
+}
+
+li:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.mynav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap:8rem; */
+    background-color: transparent;
+    height: 71px;
+    padding: 3rem 6rem;
+    /* width: 100%; */
+}
+
+.thelogos {
+    display: flex;
+    gap: 1rem;
+    position: relative;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redcircle {
+    width: 26px;
+    height: 26px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 50%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+.redcircle2 {
+    width: 26px;
+    height: 26px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    top: 0%;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+}
+
+.circle i {
+    color: white
+}
+
+.headder {
+    margin-top: 3rem;
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.title1 {
+    font: size 0.7em;
+}
+
+.title2 {
+    font-size: 2.5em;
+    transform: translate(0, -2.7rem);
+}
+
+.catphotos {
+    display: flex;
+    justify-content: center;
+    gap: 2.6rem;
+}
+
+.bor img {
+    border: 4.3px solid white;
+    border-radius: 50%;
+
+}
+
+.bor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+.redbor img {
+    /* border: 4.3px solid red; */
+    border-radius: 50%;
+}
+
+.redbor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.drow {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    height: 100vh;
+}
+.activeSlug{
+    border: 4px solid red;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+
+
+    border-radius: 1rem;
+    width: 22%;
+    height: 80%;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+    padding: 1rem;
+    background-color: gray;
+
+}
+
+.card img {
+    width: 300px;
+    height: 250px;
+    border-radius: 1rem;
+}
+
+.card button {
+    width: 250px;
+    height: 50px;
+    background-color: black;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    padding: 10px;
+    outline: 1px solid white;
+}
+
+.check {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    height: 35px;
+    align-self: flex-start;
+
+
+}
+
+.check i {
+    color: red;
+}
+
+.line {
+    width: 200px;
+
+
+
+
+}
+
+
+.thisi i {
+    width: 20px;
+    height: 20px;
+    color: yellow;
+}
+
+.starr {
+    display: flex;
+    align-items: center;
+}
+
+.sppp {
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    gap: 14rem;
+    border-bottom: 1px solid white;
+
+
+}
